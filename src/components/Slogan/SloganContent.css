@@ -1,0 +1,56 @@
+.sloganContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 32px;
+    padding-bottom: 48px;
+    margin-bottom: 26px;
+    border-bottom: 1px solid var(--divider);;
+  }
+  
+  .pagination-Container {
+    display: flex;
+    justify-content: space-between;
+    gap: 0 6px;
+  }
+  
+  #active {
+    background-color: var(--cta);
+    color: var(--bright);
+  }
+  
+  .eachSloganItem {
+    position: relative;
+    padding: 12px 16px;
+    background: var(--lightDark);
+    display: flex;
+    align-items: center;
+    text-align: start;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    border: none;
+    width: 352px;
+    height: 60px;
+  }
+  
+  .paginationNumber-Btn {
+    border-radius: 50%;
+    padding: 5px 10px;
+    border: 0;
+    border: none;
+    color: var(--cta);
+    background-color: transparent;
+  }
+  
+  .paginationNumber-Btn.active {
+    background-color: var(--cta);
+    color: var(--bright);
+  }
+  
+  .next-btn {
+    border: none;
+    background: var(--bright);
+    display: flex;
+    font-size: 0.8rem;
+    color: var(--cta);
+  }
